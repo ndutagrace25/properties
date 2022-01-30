@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import logo from "../../images/logo3.jpg";
+import logo from "../../images/logo4.jpg";
 
 class Navbar extends Component {
   state = {};
