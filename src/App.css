@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap");
+
+html,
+body {
+  font-family: "Quicksand", sans-serif !important;
+  height: 100%;
+}
+
+body::-webkit-scrollbar {
+  background-color: #e0e0e0;
+  display: none;
+}
+
+.header {
+  background-image: url("/src/images/header.jpeg");
+  width: 100%;
+  height: 550px;
+  color: black;
+  font-size: 80vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* nav {
+  background-color: #3e2723 !important;
+  color: #fff !important;
+}
+
+.underline {
+  color: #3e2723 !important;
+} */
+
+.underline:after {
+  position: absolute;
+  content: "";
+  height: 3px;
+  /* adjust this to move up and down. you may have to adjust the line height of the paragraph if you move it down a lot. */
+  bottom: 133px;
+  /* center - (optional) use with adjusting width   */
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 4%;
+  background: #e4e4e4;
+  /* optional animation */
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* optional hover classes used with anmiation */
+
+.underline:hover:after {
+  width: 10%;
+  background: #f4b334;
+}
+
+.about-text {
+  text-align: justify;
+}
+.about {
+  width: 100% !important;
+}
+.f600 {
+  font-weight: 600 !important;
+  font-size: 0.8rem;
+}
+a {
+  text-decoration: none !important;
+}
+.footer {
+  /* background-color: #3e2723 !important; */
+  color: #ffff !important;
+  margin-bottom: 0%;
+}
+.container {
+  min-height: 100vh !important;
+}
+.product {
+  width: 450px;
+}
+.mobile-menu {
+  display: none !important;
+}
+
+@media only screen and (max-device-width: 540px) {
+  .header {
+    /* display: inline; */
+    height: 200px;
+    background-image: url("/src/images/header.jpeg");
+
+    /* width: 100%; */
+    background-size: 100%;
+
+    font-weight: bold;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .mobile {
+    justify-content: center !important;
+    align-items: center !important;
+    align-content: center !important;
+    width: 100%;
+    padding-bottom: 70px;
+  }
+  h1 {
+    font-size: 1.8rem;
+  }
+  h5 {
+    font-size: 0.75rem;
+    font-weight: bold;
+  }
+  .underline:after {
+    bottom: 340px;
+    width: 8%;
+  }
+
+  .product {
+    /* width: 152px !important; */
+    padding: 15px !important;
+    /* font-size: 0.67em !important; */
+  }
+  .product-bottom {
+    font-size: 0.8em !important;
+  }
+  .product-desc {
+    flex-direction: column !important;
+    font-size: 0.67em !important;
+  }
+  .mobile-menu {
+    display: block !important;
+  }
+}
+
+@media only screen and (max-device-width: 320px) {
+  .header {
+    /* display: inline; */
+    height: 200px;
+    background-image: url("/src/images/header.jpeg");
+
+    width: 100%;
+    background-size: 100% 100%;
+
+    font-weight: bold;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .mobile {
+    justify-content: center !important;
+    align-items: center !important;
+    align-content: center !important;
+    width: 100%;
+    padding-bottom: 70px;
+  }
+  h1 {
+    font-size: 1.8rem;
+  }
+  h5 {
+    font-size: 0.75rem;
+    font-weight: bold;
+  }
+  .product-desc {
+    flex-direction: column !important;
+    font-size: 0.67em !important;
+  }
+  .product {
+    /* width: 130px !important; */
+    padding: 20px !important;
+  }
+  .mobile-menu {
+    display: block !important;
+  }
+}
+
+@media only screen and (max-device-width: 280px) {
+  .header {
+    /* display: inline; */
+    height: 200px;
+    background-image: url("/src/images/header.jpeg");
+
+    width: 100%;
+    background-size: 100% 100%;
+
+    font-weight: bold;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .mobile {
+    justify-content: center !important;
+    align-items: center !important;
+    align-content: center !important;
+    width: 100%;
+    padding-bottom: 70px;
+  }
+  h1 {
+    font-size: 1.8rem;
+  }
+  h5 {
+    font-size: 0.75rem;
+    font-weight: bold;
+  }
+  .product-desc {
+    flex-direction: column !important;
+    font-size: 0.67em !important;
+  }
+  .product {
+    /* width: 250px !important; */
+    padding: 15px !important;
+  }
+  .mobile-menu {
+    display: block !important;
+  }
+}
+
+@media only screen and (device-width: 768px) {
+  .header {
+    height: 200px;
+    background-image: url("/src/images/header.jpeg");
+
+    width: 100%;
+    background-size: 100% auto;
+    object-fit: cover;
+    font-weight: bold;
+  }
+  .mobile {
+    justify-content: center !important;
+    align-items: center !important;
+    align-content: center !important;
+    width: 100%;
+    padding-bottom: 70px;
+  }
+  h1 {
+    font-size: 1.8rem;
+  }
+  h5 {
+    font-size: 0.75rem;
+    font-weight: bold;
+  }
+  .underline:after {
+    bottom: 720px;
+    width: 8%;
+  }
+  .product {
+    /* width: 170px !important; */
+    padding: 20px !important;
+  }
+  .product-desc {
+    flex-direction: column !important;
+    font-size: 0.75em !important;
+    width: 100%;
+  }
+  .mobile-menu {
+    display: block !important;
+  }
+}
+
+@media only screen and (min-device-width: 411px) and (max-device-width: 414px) {
+  .header {
+    height: 200px;
+    background-image: url("/src/images/header.jpeg");
+
+    width: 100%;
+    background-size: 100% auto;
+    object-fit: cover;
+    font-weight: bold;
+  }
+  .mobile {
+    justify-content: center !important;
+    align-items: center !important;
+    align-content: center !important;
+    width: 100%;
+    padding-bottom: 70px;
+  }
+  h1 {
+    font-size: 1.8rem;
+  }
+  h5 {
+    font-size: 0.75rem;
+    font-weight: bold;
+  }
+  .underline:after {
+    bottom: 720px;
+    width: 8%;
+  }
+  .product {
+    /* width: 170px !important; */
+    padding: 15px !important;
+  }
+  .product-desc {
+    flex-direction: column !important;
+    font-size: 0.75em !important;
+    width: 100%;
+  }
+  .mobile-menu {
+    display: block !important;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 640px) {
+  .texthead {
+    font-size: 12px !important;
+  }
+  .search {
+    width: 120px !important;
+  }
+}
+/* @media only screen and (min-device-width: 320px) and (max-device-width: 640px) {
+  .texthead {
+    font-size: 12px !important;
+  }
+  .search {
+    width: 120px !important;
+  }
+} */
