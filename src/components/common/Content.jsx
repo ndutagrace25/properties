@@ -28,7 +28,7 @@ const Content = ({ content, title, name, onChange, value }) => {
           </div>
         </div>
       </div>
-      <h4 class="text-center font-weight-bold text-warning">{title}</h4>
+      <h4 cla="text-center font-weight-bold text-warning">{title}</h4>
 
       <div className="d-flex justify-content-between flex-wrap container-fluid">
         {content}

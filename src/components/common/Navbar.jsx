@@ -17,7 +17,7 @@ class Navbar extends Component {
               <img
                 src={logo}
                 alt=""
-                srcset=""
+                srcSet=""
                 height="50px"
                 width="50px"
                 className="rounded-circle"

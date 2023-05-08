@@ -15,7 +15,7 @@ const AboutContent = () => {
           <div className="d-flex justify-content-center flex-wrap align-items-center">
             <div className="d-flex flex-column about-text">
               <div className="my-2">
-                <i class="fas fa-phone"></i>
+                <i className="fas fa-phone"></i>
                 <a className="mx-3" href="tel:0722946748">
                   +254723038130
                 </a>
@@ -23,7 +23,7 @@ const AboutContent = () => {
             </div>
             <div className="d-flex flex-column about-text">
               <div className="my-2">
-                <i class="fas fa-envelope-square"></i>
+                <i className="fas fa-envelope-square"></i>
                 <a className="mx-3" href="mailto:abedigitalsltd@gmail.com">
                   onlyhomesproperties@gmail.com
                 </a>
@@ -46,7 +46,7 @@ const AboutContent = () => {
                     <a href="https://www.online-timer.net"></a>
                     <br />
 
-                    <i class="fas fa-map-marker"></i>
+                    <i className="fas fa-map-marker"></i>
                     <span className="mx-3">
                       Our Office - Ruiru, Nairobi Kenya 254
                     </span>

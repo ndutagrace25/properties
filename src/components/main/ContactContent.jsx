@@ -10,13 +10,13 @@ const ContactContent = () => {
           <img
             src={call}
             alt=""
-            srcset=""
+            srcSet=""
             className="image-fluid my-2"
             height="70"
             width="100"
           />
           <div className="my-2">
-            <i class="fas fa-phone"></i>
+            <i className="fas fa-phone"></i>
             <a className="mx-3" href="tel:0722946748">
               +254700000000
             </a>
@@ -26,13 +26,13 @@ const ContactContent = () => {
           <img
             src={mail}
             alt=""
-            srcset=""
+            srcSet=""
             className="image-fluid my-2"
             height="70"
             width="100"
           />
           <div className="my-2">
-            <i class="fas fa-envelope-square"></i>
+            <i className="fas fa-envelope-square"></i>
             <a className="mx-3" href="mailto:abedigitalsltd@gmail.com">
               example@gmail.com
             </a>
@@ -55,7 +55,7 @@ const ContactContent = () => {
                 <a href="https://www.online-timer.net"></a>
                 <br />
 
-                <i class="fas fa-map-marker"></i>
+                <i className="fas fa-map-marker"></i>
                 <span className="mx-3">
                   Our Office - Revlon Plaza, Second Floor
                 </span>
