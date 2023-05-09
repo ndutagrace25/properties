@@ -1,16 +1,4 @@
 import {
-  imageone,
-  imagetwo,
-  imagethree,
-  imagefour,
-  imagefive,
-  imagesix,
-  imageseven,
-  imageeight,
-  imagenine,
-  imageten,
-} from "../../images/RuiruMugutha";
-import {
   imageonerm,
   imagetworm,
   imagethreerm,
@@ -22,44 +10,7 @@ import {
   imageninerm,
   imagetenrm,
 } from "../../images/RuiruMwmbley";
-import {
-  imageonerk,
-  imagetwork,
-  imagethreerk,
-  imagefourrk,
-  imagefiverk,
-  imagesixrk,
-  imagesevenrk,
-  imageeightrk,
-  imageninerk,
-  imagetenrk,
-} from "../../images/RuiruKimbo";
-import {
-  imageonek,
-  imagetwok,
-  imagethreek,
-  imagefourk,
-  imagefivek,
-  imagesixk,
-} from "../../images/Katani";
-import {
-  imageonerms,
-  imagetworms,
-  imagethreerms,
-  imagefourrms,
-} from "../../images/RuiruMwmbleySale";
-import {
-  imageonermj,
-  imagetwormj,
-  imagethreermj,
-  imagefourrmj,
-  imagefivermj,
-  imagesixrmj,
-  imagesevenrmj,
-  imageeightrmj,
-  imageninermj,
-  imagetenrmj,
-} from "../../images/RuiruMatangiJunction";
+
 import {
   imageonermsec,
   imagetwormsec,
@@ -72,18 +23,7 @@ import {
   imageninermsec,
   imagetenrmsec,
 } from "../../images/RuiruMatangi";
-import {
-  imageonerb,
-  imagetworb,
-  imagethreerb,
-  imagefourrb,
-  imagefiverb,
-  imagesixrb,
-  imagesevenrb,
-  imageeightrb,
-  imageninerb,
-  imagetenrb,
-} from "../../images/RuiruBypassKamakis";
+
 import {
   imageonermk,
   imagetwormk,
@@ -127,13 +67,13 @@ export const data = [
       "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/jujamastore10.jpg?alt=media&token=7d28563a-b81b-48da-882b-f0d0b4e7bb5a",
     ],
     description:
-      "Affordable house in Juja, Kenya, 10M neg, Newly built, 3 bedroom master ensuite",
+      "Affordable 3 bedroom house in Juja, Kenya, 10 million neg, Newly built, master ensuite",
     location: "Juja Mastore",
     price: "10M",
     parking: "3 Cars",
     security: "Security with guards 24hrs",
     water: "Water flow supply is sufficient ",
-    more: `10M neg, Newly built, 3 bedroom master ensuite,  In Juja Mastore, 4km from Thika rd, Along newly built Juja tarmac,40 by 120 plot
+    more: `10M neg, Newly built, 3 bedroom modern master ensuite,  In Juja Mastore, 4km from Thika rd, Along newly built Juja tarmac,40 by 120 plot
     Ready title, 
     Water supply is sufficient, 
     Electricity connected,
@@ -443,7 +383,8 @@ export const data = [
       imageninerm,
       imagetenrm,
     ],
-    description: "HOUSE FOR SALE 7.5M negotiable, 3 bedroom all ensuite ",
+    description:
+      "3 BEDROOM HOUSE FOR SALE below 10 million (goes for 7.5 million negotiable), all bedrooms ensuite ",
     location: "Ruiru Matangi",
     price: "7.5M neg",
     parking: "4 cars",
