@@ -394,7 +394,7 @@ export const data = [
       "https://firebasestorage.googleapis.com/v0/b/pushnotifications-3134c.appspot.com/o/KarenDagorettiRoad14.jpg?alt=media&token=f7abe879-99fe-4761-b1fa-605ca5600037",
     ],
     description:
-      "Luxury home Karen, NairobiN Shopping Center 5BR ASTRONOMIC TREMENDOUS GATED HOUSE WITH SWIMMING POOL ONE ACRE LAND ON QUICK SALE",
+      "Luxury home Karen, Nairobi Shopping Center 5BR ASTRONOMIC TREMENDOUS GATED HOUSE WITH SWIMMING POOL ONE ACRE LAND ON QUICK SALE",
     location: "Karen Dagoretti Road",
     price: "160M",
     parking: "Available",
