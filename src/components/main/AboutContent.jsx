@@ -8,9 +8,23 @@ const AboutContent = () => {
       <div className="about-text col-md-8 mt-3 px-2">
         <p>
           Only Homes Properties we specialize in House and Estate Management,
-          Sales of Commercial & Residential Houses, and Land for Sale /Lease and
-          House Letting .
+          Sales of Commercial & Residential Houses, House for Sell, House for
+          Rent, and Land for Sale /Lease and House Letting.
         </p>
+
+        <p>Some of our services include: </p>
+        <ul>
+          <li>House for sale in Kenya</li>
+          <li>Homes for rent Nairobi</li>
+          <li>Real estate agents Kenya</li>
+          <li>Apartments for sale in Kenya</li>
+          <li>Gated communities Nairobi</li>
+          <li>Land for sale Kenya</li>
+          <li>Commercial properties Nairobi</li>
+          <li>Residential plots for sale Nairobi</li>
+          <li>Property management services Kenya</li>
+          <li>Rental apartments Nairobi, Kenya</li>
+        </ul>
         <div className="container">
           <div className="d-flex justify-content-center flex-wrap align-items-center">
             <div className="d-flex flex-column about-text">
