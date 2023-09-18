@@ -114,7 +114,7 @@ export const data = [
     description:
       "HOUSE FOR SALE, 45M, Newly built, 4 bedroom master ensuite with an SQ",
     location: "Ruiru Kimbo",
-    price: "10M",
+    price: "45M",
     parking: "3 Cars",
     security: "Security with guards 24hrs",
     water: "Water flow supply is sufficient ",
