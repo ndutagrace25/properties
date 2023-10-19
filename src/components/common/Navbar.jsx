@@ -19,7 +19,7 @@ class Navbar extends Component {
                 alt=""
                 srcSet=""
                 height="50px"
-                width="50px"
+                width="70px"
                 className="rounded-circle"
               />
             </div>
