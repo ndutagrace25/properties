@@ -1,6 +1,4 @@
 import React from "react";
-import { DemoRequest } from ".";
-import { call, mail } from "../../images";
 
 const AboutContent = () => {
   return (
@@ -56,6 +54,7 @@ const AboutContent = () => {
                       scrolling="no"
                       marginheight="0"
                       marginwidth="0"
+                      title="Only Homes Property"
                     ></iframe>
                     <a href="https://www.online-timer.net"></a>
                     <br />

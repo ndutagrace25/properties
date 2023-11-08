@@ -384,7 +384,7 @@ export const data = [
       imagetenrm,
     ],
     description:
-      "3 BEDROOM HOUSE FOR SALE below 10 million (goes for 7.5 million negotiable), all bedrooms ensuite ",
+      "3 BEDROOM HOUSE FOR SALE below 7.5 million (goes for 7.5 million negotiable), all bedrooms ensuite ",
     location: "Ruiru Matangi",
     price: "7.5M neg",
     parking: "4 cars",
